@@ -2,6 +2,8 @@ baseurl = "photography.russelloliver.com.au"
 languageCode = "en-au"
 title = "Russell Oliver Photography"
 Copyright = "All rights reserved - 2015"
+disableLiveReload = true
+disableRSS = true
 
 [params]
   cover = "images/cover.jpg"
@@ -11,3 +13,4 @@ Copyright = "All rights reserved - 2015"
   twitterName = "rusty_oliver"
   # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
   hideHUGOSupport = false
+  
