@@ -5,9 +5,26 @@
         {{end}}
     </footer>
     </div>
-    <script type="text/javascript" src="{{.Site.BaseUrl}}js/jquery.js"></script>
-    <script type="text/javascript" src="{{.Site.BaseUrl}}js/jquery.fitvids.js"></script>
-    <script type="text/javascript" src="{{.Site.BaseUrl}}js/index.js"></script>
+	<script>
+</script>
+<script src="js/blueimp-helper.js"></script>
+<script src="js/blueimp-gallery.js"></script>
+<script src="js/blueimp-gallery-fullscreen.js"></script>
+<script src="js/blueimp-gallery-indicator.js"></script>
+<script src="js/blueimp-gallery-video.js"></script>
+<script src="js/blueimp-gallery-vimeo.js"></script>
+<script src="js/blueimp-gallery-youtube.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+blueimp.Gallery(
+    document.getElementById('links').getElementsByTagName('a'),
+    {
+        container: '#blueimp-image-carousel',
+        carousel: true
+    }
+);
+</script>
+
 
 </body>
 </html>
