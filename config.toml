@@ -3,14 +3,15 @@ languageCode = "en-au"
 title = "Russell Oliver Photography"
 Copyright = "All rights reserved - 2015"
 disableLiveReload = true
-disableRSS = true
+
 
 [params]
   cover = "images/cover.jpg"
   logo = "images/logo.png"
   # Optional RSS-Link, if not provided it defaults to the standard index.xml
   githubName = "rustyoz"
-  twitterName = "rusty_oliver"
+  twitterName = "rustyoliver"
+   facebookName = "russelloliverphotography"
   # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
   hideHUGOSupport = false
-  
+  disableRSS = true
