@@ -240,7 +240,7 @@ h6 {
 }
 
 a {
-    color: #4A4A4A;
+    color: #000;
     transition: color 0.3s ease;
 }
 
@@ -468,6 +468,7 @@ margin on the iframe, cause it breaks stuff. */
 .vertical {
     display: table-cell;
     vertical-align: middle;
+	height: 30vh;
 }
 
 /* Wraps the main content & footer */
@@ -502,7 +503,7 @@ body.nav-opened .site-wrapper {
     height: 100vh;
     margin-bottom: 5rem;
     text-align: center;
-    background: #222 no-repeat center center;
+    background: #000 no-repeat center center;
     background-size: cover;
     overflow: hidden;
 }
@@ -660,6 +661,7 @@ body.nav-opened .nav {
 }
 .nav .nav-current:before {
     color: #fff;
+}
 }
 .nav .nav-current a:after {
     content: " ";
