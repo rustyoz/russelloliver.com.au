@@ -14,3 +14,4 @@ disableSitemap = true
    facebookName = "russelloliverphotography"
   # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
   hideHUGOSupport = false
+ googleAnalyticsUserID = "UA-45060785-1"
