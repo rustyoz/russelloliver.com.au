@@ -2,9 +2,9 @@ baseurl = "photography.russelloliver.com.au"
 languageCode = "en-au"
 title = "Russell Oliver Photography"
 Copyright = "All rights reserved - 2015"
-disableLiveReload = true
-
-
+disableLiveReload = false
+disableRSS = true
+disableSitemap = true
 [params]
   cover = "images/cover.jpg"
   logo = "images/logo.png"
@@ -14,4 +14,3 @@ disableLiveReload = true
    facebookName = "russelloliverphotography"
   # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
   hideHUGOSupport = false
-  disableRSS = true
