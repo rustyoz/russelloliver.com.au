@@ -18,6 +18,12 @@ pluralizelisttitles = false
   hideHUGOSupport = false
  googleAnalyticsUserID = "UA-45060785-1"
  
+ [[menu.main]]
+  name = "Home"
+  weight = -130
+  identifier = "home"
+  url = "/"
+  
 [[menu.main]]
   name = "Blog"
   weight = -120
