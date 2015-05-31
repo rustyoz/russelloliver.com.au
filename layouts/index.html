@@ -20,17 +20,17 @@
     <div class="vertical">
         <div class="main-header-content inner">
             {{ if .Site.Params.githubName }}
-                <a  href="https://github.com/{{ .Site.Params.githubName }}">
+                <a class="bloglogo" href="https://github.com/{{ .Site.Params.githubName }}">
                 <span class="icon-github" style="color:white;font-size:2em"></span>
                 </a>
             {{end}}
-            &nbsp;
+            
             {{ if .Site.Params.twitterName }}
                 <a class="bloglogo" href="https://twitter.com/{{ .Site.Params.twitterName }}">
                     <span class="icon-twitter" style="color:white;font-size:2em"></span>
                 </a>
             {{end}}
-			&nbsp;
+			
 			{{ if .Site.Params.facebookName }}
                 <a class="bloglogo" href="https://facebook.com/{{ .Site.Params.facebookName }}">
                     <span class="icon-facebook" style="color:white;font-size:2em"></span>
@@ -38,10 +38,10 @@
             {{end}}
             <h1 class="page-title">{{ .Site.Title }}</h1>
             <h2 class="page-description">{{ .Site.Params.description }}</h2>
+
 			{{.Scratch.Add "dir" "photos"}}
+            {{.Scratch.Add "url" "photos"}}
 			{{partial "gallery.html" .}}
-	
-			
 
 			
 			
@@ -51,21 +51,5 @@
     <a class="scroll-down icon-arrow-left" href="#content"><span class="hidden">Scroll Down</span></a>
 </header>
 
-
-<main id="content" class="content" role="main">
-
-    {{ $paginator := .Paginator }}
-
-    <div class="extra-pagination inner">
-        {{ partial "pagination.html" $paginator }}
-    </div>
-
-    {{ range $index, $page := .Paginator.Pages }}
-        {{ .Render "li" }}
-    {{ end }}
-
-    {{ partial "pagination.html" $paginator }}
-
-</main>
 
 {{ partial "footer.html" . }}

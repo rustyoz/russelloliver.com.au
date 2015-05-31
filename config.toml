@@ -1,13 +1,15 @@
-baseurl = "photography.russelloliver.com.au"
+baseurl = "russelloliver.com.au"
 languageCode = "en-au"
 title = "Russell Oliver Photography"
 Copyright = "All rights reserved - 2015"
 disableLiveReload = false
 disableRSS = true
 disableSitemap = true
+pluralizelisttitles = false
 [params]
   cover = "images/cover.jpg"
   logo = "images/logo.png"
+  logo2 = "images/logo2.png"
   # Optional RSS-Link, if not provided it defaults to the standard index.xml
   githubName = "rustyoz"
   twitterName = "rustyoliver"
@@ -15,3 +17,16 @@ disableSitemap = true
   # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
   hideHUGOSupport = false
  googleAnalyticsUserID = "UA-45060785-1"
+ 
+[[menu.main]]
+  name = "Blog"
+  weight = -120
+  identifier = "blog"
+  url = "/blog/"
+  
+[[menu.main]]
+  name = "Photography"
+  weight = -120
+  identifier = "photography"
+  url = "/photography/"
+
