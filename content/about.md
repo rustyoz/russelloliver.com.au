@@ -8,3 +8,5 @@ menu= "main"
 +++
 
 Event Photographer for the Geelong area. 
+
+[Email](mailto:contactme@russelloliver.com.au)
