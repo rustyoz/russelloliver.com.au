@@ -975,7 +975,7 @@
                 },
                 title;
             if (typeof url !== 'string') {
-                url = this.getItemProperty(obj, this.options.urlProperty);
+                url = '/' + obj.getAttribute('href');
                 title = this.getItemProperty(obj, this.options.titleProperty);
             }
             if (backgroundSize === true) {
