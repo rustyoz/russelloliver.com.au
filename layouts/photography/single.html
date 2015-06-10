@@ -17,7 +17,7 @@
   {{else}}
       <a class="menu-button icon-feed" href="{{ .Site.BaseUrl }}index.xml">&nbsp;&nbsp;Subscribe</a>
   {{end}}
-  {{.Scratch.Add "dir" "photos"}}
+  {{.Scratch.Add "dir" "static/photos"}}
    {{.Scratch.Add "url" "photos"}}
   {{partial "gallery.html" .}}
   </nav>

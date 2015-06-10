@@ -39,7 +39,7 @@
             <h1 class="page-title">{{ .Site.Title }}</h1>
             <h2 class="page-description">{{ .Site.Params.description }}</h2>
 
-			{{.Scratch.Add "dir" "photos"}}
+			{{.Scratch.Add "dir" "static/photos"}}
             {{.Scratch.Add "url" "photos"}}
 			{{partial "gallery-home.html" .}}
 
